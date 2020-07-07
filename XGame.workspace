@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="XGame" Database="./XGame.tags">
+  <Project Name="XNetFrame" Path="XNetFrame/XNetFrame.project" Active="Yes"/>
+  <Project Name="test" Path="test/test.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="XNetFrame" ConfigName="Debug"/>
+      <Project Name="test" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="XNetFrame" ConfigName="Release"/>
+      <Project Name="test" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

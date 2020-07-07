@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Session Name="/root/XGame/XGame.workspace">
+  <int Value="13" Name="m_selectedTab"/>
+  <wxString Value="/root/XGame/XGame.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/SessionDispatchService.cpp" Name="FileName"/>
+      <int Value="67" Name="FirstVisibleLine"/>
+      <int Value="73" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/EpollService.h" Name="FileName"/>
+      <int Value="39" Name="FirstVisibleLine"/>
+      <int Value="50" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XNetSession.h" Name="FileName"/>
+      <int Value="14" Name="FirstVisibleLine"/>
+      <int Value="25" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XNetSession.cpp" Name="FileName"/>
+      <int Value="28" Name="FirstVisibleLine"/>
+      <int Value="32" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XNetConnector.cpp" Name="FileName"/>
+      <int Value="61" Name="FirstVisibleLine"/>
+      <int Value="91" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XNetConnector.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="30" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XNetService.cpp" Name="FileName"/>
+      <int Value="60" Name="FirstVisibleLine"/>
+      <int Value="19" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XNetService.h" Name="FileName"/>
+      <int Value="22" Name="FirstVisibleLine"/>
+      <int Value="29" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XNetChannel.cpp" Name="FileName"/>
+      <int Value="16" Name="FirstVisibleLine"/>
+      <int Value="22" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XNetChannel.h" Name="FileName"/>
+      <int Value="13" Name="FirstVisibleLine"/>
+      <int Value="19" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/Session.h" Name="FileName"/>
+      <int Value="126" Name="FirstVisibleLine"/>
+      <int Value="131" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/ScheduleService.h" Name="FileName"/>
+      <int Value="54" Name="FirstVisibleLine"/>
+      <int Value="54" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XScheduleService.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="6" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/root/XGame/XNetFrame/XScheduleService.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>

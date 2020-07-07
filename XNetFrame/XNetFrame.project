@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="XNetFrame" InternalType="Console">
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="main.cpp"/>
+    <File Name="AdjustableBuffer.cpp"/>
+    <File Name="AuthCrypt.cpp"/>
+    <File Name="Channel.cpp"/>
+    <File Name="BitStream.cpp"/>
+    <File Name="ConsoleViewer.cpp"/>
+    <File Name="Context.cpp"/>
+    <File Name="DispatchService.cpp"/>
+    <File Name="DispatchThread.cpp"/>
+    <File Name="EpollAcceptThread.cpp"/>
+    <File Name="EpollAsyncIoThread.cpp"/>
+    <File Name="EpollService.cpp"/>
+    <File Name="EpollImpl.cpp"/>
+    <File Name="Event.cpp"/>
+    <File Name="XNetSession.cpp"/>
+    <File Name="TcpService.cpp"/>
+    <File Name="Loader.cpp"/>
+    <File Name="Log.cpp"/>
+    <File Name="Exception.cpp"/>
+    <File Name="Thread.cpp"/>
+    <File Name="TcpSocket.cpp"/>
+    <File Name="Monitor.cpp"/>
+    <File Name="MessageHandler.cpp"/>
+    <File Name="Viewer.cpp"/>
+    <File Name="Properties.cpp"/>
+    <File Name="TcpThread.cpp"/>
+    <File Name="ResourceInterface.cpp"/>
+    <File Name="EventHandlerFactory.cpp"/>
+    <File Name="StringTokenizer.cpp"/>
+    <File Name="Stream.cpp"/>
+    <File Name="System.cpp"/>
+    <File Name="Socket.cpp"/>
+    <File Name="RotativeBuffer.cpp"/>
+    <File Name="SocketImpl.cpp"/>
+    <File Name="UdpThread.cpp"/>
+    <File Name="SessionFactory.cpp"/>
+    <File Name="MessageDigest.cpp"/>
+    <File Name="MessageHandlerFactory.cpp"/>
+    <File Name="InetAddress.cpp"/>
+    <File Name="ScheduleService.cpp"/>
+    <File Name="Profiler.cpp"/>
+    <File Name="FileLoader.cpp"/>
+    <File Name="ServerSocket.cpp"/>
+    <File Name="UdpSocket.cpp"/>
+    <File Name="FileViewer.cpp"/>
+    <File Name="ScheduleThread.cpp"/>
+    <File Name="LogThread.cpp"/>
+    <File Name="Session.cpp"/>
+    <File Name="UdpService.cpp"/>
+    <File Name="Random.cpp"/>
+    <File Name="XNetConnector.cpp"/>
+    <File Name="XNetChannel.cpp"/>
+    <File Name="SessionDispatchService.cpp"/>
+    <File Name="ChannelDispatchService.cpp"/>
+    <File Name="ContextDispatchService.cpp"/>
+    <File Name="XNetService.cpp"/>
+    <File Name="XScheduleService.cpp"/>
+    <File Name="TimerEventHandler.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="linux">
+    <File Name="linux/dir_os.h"/>
+    <File Name="linux/event_os.h"/>
+    <File Name="linux/time_os.h"/>
+    <File Name="linux/thread_os.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="win32">
+    <File Name="win32/dir_os.h"/>
+    <File Name="win32/event_os.h"/>
+    <File Name="win32/time_os.h"/>
+    <File Name="win32/thread_os.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="inc">
+    <File Name="UdpThread.h"/>
+    <File Name="AdjustableBuffer.h"/>
+    <File Name="Viewer.h"/>
+    <File Name="EpollAsyncIoThread.h"/>
+    <File Name="Session.h"/>
+    <File Name="FileLoader.h"/>
+    <File Name="DispatchService.h"/>
+    <File Name="ServerSocket.h"/>
+    <File Name="Exception.h"/>
+    <File Name="XNetService.h"/>
+    <File Name="EpollAcceptThread.h"/>
+    <File Name="ResourceInterface.h"/>
+    <File Name="SocketImpl.h"/>
+    <File Name="Profiler.h"/>
+    <File Name="Monitor.h"/>
+    <File Name="MessageHandlerFactory.h"/>
+    <File Name="Loader.h"/>
+    <File Name="Context.h"/>
+    <File Name="Platform.h"/>
+    <File Name="ConsoleViewer.h"/>
+    <File Name="LogThread.h"/>
+    <File Name="StringTokenizer.h"/>
+    <File Name="UdpSocket.h"/>
+    <File Name="Properties.h"/>
+    <File Name="EpollImpl.h"/>
+    <File Name="Stream.h"/>
+    <File Name="BitStream.h"/>
+    <File Name="TcpService.h"/>
+    <File Name="InetAddress.h"/>
+    <File Name="Log.h"/>
+    <File Name="UdpService.h"/>
+    <File Name="TcpSocket.h"/>
+    <File Name="AuthCrypt.h"/>
+    <File Name="ScheduleThread.h"/>
+    <File Name="XNetSession.h"/>
+    <File Name="RotativeBuffer.h"/>
+    <File Name="TcpThread.h"/>
+    <File Name="EpollService.h"/>
+    <File Name="DispatchThread.h"/>
+    <File Name="FileViewer.h"/>
+    <File Name="SessionFactory.h"/>
+    <File Name="MessageHandler.h"/>
+    <File Name="TypesDn.h"/>
+    <File Name="EventHandlerFactory.h"/>
+    <File Name="BlockingQueue.h"/>
+    <File Name="Event.h"/>
+    <File Name="Thread.h"/>
+    <File Name="System.h"/>
+    <File Name="MessageDigest.h"/>
+    <File Name="Random.h"/>
+    <File Name="ScheduleService.h"/>
+    <File Name="Channel.h"/>
+    <File Name="Socket.h"/>
+    <File Name="XNetConnector.h"/>
+    <File Name="XNetChannel.h"/>
+    <File Name="ChannelDispatchService.h"/>
+    <File Name="ContextDispatchService.h"/>
+    <File Name="SessionDispatchService.h"/>
+    <File Name="XScheduleService.h"/>
+    <File Name="TimerEventHandler.h"/>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="pthread"/>
+        <Library Value="rt"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../lib/lib$(ProjectName).so" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+</CodeLite_Project>
